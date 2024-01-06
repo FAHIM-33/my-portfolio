@@ -16,7 +16,7 @@ const Navbar = () => {
             </div>
             <div className="flex gap-2 text-xl">
                 {links}
-            </div>
+            </div> 
         </nav>
     );
 };

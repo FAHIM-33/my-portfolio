@@ -1,6 +1,5 @@
 
 import { useEffect, useState } from "react";
-import Marquee from "react-fast-marquee";
 
 const Porjects = () => {
     const [projects, setProjects] = useState([])
