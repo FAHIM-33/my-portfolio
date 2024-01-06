@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "BDC",
+      "details": "A Blood donation campaing for everyone",
+      "liveLink": "https://example.com/object1",
+      "img": "/bdc.png"
+    },
+    {
+      "id": 2,
+      "name": "Brandify",
+      "details": "A brand shop",
+      "liveLink": "https://example.com/object2",
+      "img": "/brandify.png"
+    },
+    {
+      "id": 3,
+      "name": "Ocean Books",
+      "details": "A library management website",
+      "liveLink": "https://example.com/object3",
+      "img": "/library.png"
+    },
+    {
+      "id": 4,
+      "name": "Tech Mania",
+      "details": "Technology event management website",
+      "liveLink": "https://example.com/object4",
+      "img": "/techmania.png"
+    }
+  ]
+  

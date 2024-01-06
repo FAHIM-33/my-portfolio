@@ -10,7 +10,9 @@ export default {
       colors: {
         prim: "var(--primary)",
         sec: "var(--secondary)",
-        
+        low: "var(--low)",
+        mid: "var(--mid)",
+
       }
     },
   },
