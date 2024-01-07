@@ -8,7 +8,7 @@
     /* --primary: rgb(220, 20, 60); */
     --primary: rgb(17, 17, 17);
     --secondary: rgb(253, 242, 185);
-    --low: rgb(182, 182, 182);
+    --low: rgb(119, 119, 119);
     --mid: rgb(43, 43, 43);
 }
 
@@ -67,15 +67,15 @@ nav {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
+    margin-top: 8rem;
 
 }
 
 .skill-card {
     border-radius: 8px;
-    background: rgb(255, 255, 255);
-    box-shadow: 20px 20px 60px #8a8a8a,
-        -20px -20px 60px #ffffff;
+    /* background: rgb(255, 255, 255); */
+    /* box-shadow: 20px 20px 60px #8a8a8a,
+        -20px -20px 60px #ffffff; */
 }
 
 .type::after {
@@ -116,7 +116,18 @@ nav {
     opacity: 1;
 }
 
+input ,textarea{
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    --tw-drop-shadow: drop-shadow(0 10px 10px rgb(0 0 0 / 0.5));
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
 
+input:hover, textarea:hover{
+    background-color: white;
+}
 
 .brr {
     border: 1px solid red;

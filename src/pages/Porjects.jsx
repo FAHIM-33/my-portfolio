@@ -13,7 +13,7 @@ const Porjects = () => {
     }, [])
 
     return (
-        <section className="cont" >
+        <section className="cont" > 
             <SecHead text='My Projects'></SecHead>
             <div className="grid grid-cols-2 gap-2" id="projects" data-aos='slide-left'>
                 {
