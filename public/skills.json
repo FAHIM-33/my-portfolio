@@ -1,0 +1,42 @@
+[
+    {
+        "id": 3,
+        "name": "React",
+        "logo": "/react.png"
+    },
+    {
+        "id": 1,
+        "name": "MongoDB",
+        "logo": "/mongo.png"
+    },
+    {
+        "id": 2,
+        "name": "JavaScript",
+        "logo": "/js.png"
+    },
+    {
+        "id": 4,
+        "name": "Express",
+        "logo": "/express.png"
+    },
+    {
+        "id": 5,
+        "name": "JWT",
+        "logo": "/jwt.png"
+    },
+    {
+        "id": 6,
+        "name": "HTML",
+        "logo": "/html.png"
+    },
+    {
+        "id": 7,
+        "name": "CSS",
+        "logo": "/css.png"
+    },
+    {
+        "id": 8,
+        "name": "Tailwind",
+        "logo": "/tail.png"
+    }
+]

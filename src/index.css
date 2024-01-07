@@ -12,6 +12,10 @@
     --mid: rgb(43, 43, 43);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Bai Jamjuree', sans-serif;
     background-color: var(--secondary);
@@ -49,12 +53,30 @@ nav .active {
     background-color: var(--primary);
 }
 
-.cont {
-    max-width: 1440px;
-    margin: 0 auto;
+nav {
+    transition: all 0.3s;
 
 }
 
+.gone {
+    transform: translateY(-120%) rotateY(50deg);
+
+}
+
+.cont {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+
+}
+
+.skill-card {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    box-shadow: 20px 20px 60px #8a8a8a,
+        -20px -20px 60px #ffffff;
+}
 
 .type::after {
     content: '_';
@@ -90,7 +112,7 @@ nav .active {
     scale: 1;
 }
 
-.event-card:hover h3{
+.event-card:hover h3 {
     opacity: 1;
 }
 
