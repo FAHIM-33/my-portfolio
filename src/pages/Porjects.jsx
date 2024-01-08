@@ -13,7 +13,7 @@ const Porjects = () => {
     }, [])
 
     return (
-        <section className="cont" > 
+        <section className="cont " > 
             <SecHead text='My Projects'></SecHead>
             <div className="grid grid-cols-2 gap-2" id="projects" data-aos='slide-left'>
                 {
@@ -25,7 +25,7 @@ const Porjects = () => {
                                 <img src={obj.img} alt="borken image" />
                             </figure>
                         </a>
-                        <div className="bg-white pl-4">
+                        <div className="text-mid bg-white pl-4">
                             <h3 className="text-xl opacity-0 duration-200 font-semibold">{obj.name}</h3>
                             <p className="py-1">{obj.details}</p>
                         </div>
