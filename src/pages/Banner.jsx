@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Banner = () => {
     return (
         <div className='relative mt-16'>
-            <h2 className="absolute text-5xl text-mid text-center font-semibold top-1/2 -translate-y-1/2 w-full left-1/2 -translate-x-1/2">
+            <h2 className="absolute text-5xl text-low text-center font-semibold top-1/2 -translate-y-1/2 w-full left-1/2 -translate-x-1/2">
                 <TypeAnimation
                     sequence={[
                         'Make websites that are polished & reliable to use',

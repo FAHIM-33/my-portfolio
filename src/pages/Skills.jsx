@@ -17,7 +17,7 @@ const Skills = () => {
                 {
                     skills?.map(obj => <figure
                         key={obj.id}
-                        className=" skill-card p-4 backdrop-blur-sm drop-shadow-2xl hover:scale-110 duration-100"
+                        className=" skill-card p-4 backdrop-blur-sm hover:scale-110 duration-200"
                         title={obj.name}
                     >
                         <img  className="w-24 h-24 object-contain" src={obj.logo} alt="logo" />

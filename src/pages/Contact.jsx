@@ -6,7 +6,7 @@ const Contact = () => {
         <section className="cont " id="contact">
             <SecHead text='Contact me'></SecHead>
 
-            <section  className="text-black mb-8 mt-12 py-4 border border-black rounded-lg">
+            <section  className="text-high mb-8 mt-12 py-4 border border-low rounded-lg">
                 <div className="flex flex-col md:flex-row gap-10">
 
                     <div className="w-auto md:w-1/2 text-center md:text-right">
@@ -22,7 +22,7 @@ const Contact = () => {
                             <input required type="email" name="email" placeholder="Your Email:" />
                             <textarea required placeholder="Tell me something..." name="message"></textarea>
                             <button
-                                className="border-2 border-mid w-fit px-4 py-2 rounded-md duration-200 hover:bg-white hover:drop-shadow-xl shadow-black"
+                                className="border-2 border-mid w-fit px-4 py-2 rounded-md duration-200 hover:bg-low hover:drop-shadow-xl shadow-black"
                                 type="submit">Send</button>
                         </form>
                         <p className="flex items-center gap-4 font-medium text-2xl"> Social media: <span className="flex gap-4 text-4xl">
