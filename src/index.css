@@ -56,7 +56,8 @@ nav .active {
     background-color: var(--primary);
 }
 
-nav {
+nav,
+.nav {
     transition: all 0.3s;
 
 }
@@ -130,6 +131,7 @@ textarea {
     backdrop-filter: blur(4px);
     --tw-drop-shadow: drop-shadow(0 10px 10px rgba(70, 70, 70, 0.993));
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+    border: 1px solid var(--low);
 }
 
 input:hover,
@@ -143,4 +145,22 @@ textarea:hover {
 
 .brb {
     border: 1px solid blue;
+}
+
+
+@media screen and (max-width:768px) {
+    nav a {
+        padding: 0;
+    }
+
+    .cont {
+        margin-top: 4rem;
+    
+    }
+
+    .event-card img {
+        scale: 1;    
+    }
+
+
 }

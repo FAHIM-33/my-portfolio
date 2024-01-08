@@ -6,7 +6,7 @@ const Contact = () => {
         <section className="cont " id="contact">
             <SecHead text='Contact me'></SecHead>
 
-            <section  className="text-high mb-8 mt-12 py-4 border border-low rounded-lg">
+            <section  className="text-high mb-8 mt-12 py-4 border border-low md:mx-0 mx-2 rounded-lg">
                 <div className="flex flex-col md:flex-row gap-10">
 
                     <div className="w-auto md:w-1/2 text-center md:text-right">
