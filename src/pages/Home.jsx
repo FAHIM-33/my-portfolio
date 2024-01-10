@@ -6,6 +6,7 @@ import Skills from "./Skills";
 import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import { FaDownload } from "react-icons/fa";
 AOS.init();
 
 
@@ -13,7 +14,12 @@ const Home = () => {
     return (
         <div className="">
             <Banner></Banner>
-            {/* <div className="py-[1000px]"></div> */}
+            <div>
+                <a href="/cv.txt" className="w-fit flex gap-2 items-center text-2xl bg-gray-200 duration-200 hover:bg-white hover:scale-105 text-prim mx-auto mt-12 p-4 rounded-md" download >
+                    <FaDownload></FaDownload>
+                    Download CV
+                </a>
+            </div>
             <Porjects></Porjects>
             <Skills></Skills>
             <About></About>
