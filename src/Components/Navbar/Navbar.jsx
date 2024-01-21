@@ -29,7 +29,7 @@ const Navbar = () => {
 
     return (
         <div className={`nav sticky ${visible ? '' : 'gone'} z-40 top-1`}>
-            <nav className="hidden md:flex  justify-between m-2 items-center p-1 bg-[#6d6d6d63] my-1 px-4 rounded-lg drop-shadow-xl backdrop-blur-md shadow-black">
+            <nav className="hidden md:flex  justify-between m-2 items-center p-1 bg-[#6d6d6d9a] my-1 px-4 rounded-lg drop-shadow-xl backdrop-blur-md shadow-black">
                 <div className="text-4xl font-semibold">
                     SH Fahim
                 </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
             </nav>
 
             {/* mobile navbar */}
-            <nav className="block md:hidden  justify-between m-1 items-center p-px bg-[#6d6d6d63] my-1 px-2 rounded-lg drop-shadow-xl backdrop-blur-md shadow-black">
+            <nav className="block md:hidden border border-[#7a7a7a] justify-between m-1 items-center p-px bg-[#2e2e2ec9] my-1 px-2 rounded-lg drop-shadow-xl shadow-black">
                 <div className="text-2xl whitespace-nowrap font-semibold">
                     SH Fahim
                 </div>

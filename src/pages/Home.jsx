@@ -12,9 +12,9 @@ AOS.init();
 
 const Home = () => {
     return (
-        <div className="">
+        <div className="border-0">
             <Banner></Banner>
-            <div>
+            <div className="">
                 <a href="https://drive.google.com/uc?export=download&id=1sFIV6II4jXQmoeexFTxq-wqDcwymfZjm" 
                 className="w-fit flex gap-2 items-center text-lg md:text-2xl bg-gray-200 duration-200 hover:bg-white hover:scale-105 text-prim mx-auto mt-12 p-2 md:p-4 rounded-md" download='SH Fahim resume.pdf' >
                     <FaDownload></FaDownload>

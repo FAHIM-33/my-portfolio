@@ -15,7 +15,7 @@ const Porjects = () => {
     return (
         <section className="cont " >
             <SecHead text='My Projects'></SecHead>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4" id="projects" data-aos='slide-left'>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4" id="projects" data-aos='slide-up'>
                 {
                     projects?.map(obj => <div key={obj.id}
                         className=" event-card overflow-hidden relative rounded-sm "

@@ -24,6 +24,11 @@ body {
     color: var(--high);
     /* background-color: #333; */
     position: relative;
+    overflow-x: hidden;
+
+
+    /* cursor: url(/html.png), auto; */
+    cursor: url('/curs2.png'), auto;
 
 }
 
@@ -76,6 +81,8 @@ nav,
 }
 
 .skill-card {
+  
+
     border-radius: 8px;
     --tw-drop-shadow: drop-shadow(0 25px 25px rgba(56, 56, 56, 0.15));
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -136,7 +143,7 @@ textarea {
 
 input:hover,
 textarea:hover {
-    background-color: var(--low);
+    background-color: #64646457;
 }
 
 .brr {
@@ -161,6 +168,11 @@ textarea:hover {
     .event-card img {
         scale: 1;    
     }
+
+    input,
+textarea {
+    backdrop-filter: none;
+}
 
 
 }
