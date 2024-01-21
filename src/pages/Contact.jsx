@@ -6,7 +6,7 @@ const Contact = () => {
         <section className="cont " id="contact">
             <SecHead text='Contact me'></SecHead>
 
-            <section  className="text-high mb-8 mt-12 py-4 border border-low md:mx-0 mx-2 rounded-lg">
+            <section className="text-high mb-8 mt-12 py-4 border border-low md:mx-0 mx-2 rounded-lg">
                 <div className="flex flex-col md:flex-row gap-10">
 
                     <div className="w-auto md:w-1/2 text-center md:text-right">
@@ -26,13 +26,13 @@ const Contact = () => {
                                 type="submit">Send</button>
                         </form>
                         <p className="flex items-center gap-4 font-medium text-2xl"> Social media: <span className="flex gap-4 text-4xl">
-                            <a href="https://www.facebook.com/shahriyerhossain.fahim/" title="Go to Facebook profile">
+                            <a href="https://www.facebook.com/shahriyerhossain.fahim/" title="Go to Facebook profile" target="_blank" rel="noopener noreferrer" >
                                 <FaFacebook></FaFacebook>
                             </a>
-                            <a href="https://github.com/FAHIM-33" title="Go to GitHub profile">
+                            <a href="https://github.com/FAHIM-33" title="Go to GitHub profile" target="_blank" rel="noopener noreferrer" >
                                 <FaGithub></FaGithub>
                             </a>
-                            <a href="" title="Go to LinkedIn profile">
+                            <a href="https://www.linkedin.com/in/sh-fahim-1607612ab/" title="Go to LinkedIn profile" target="_blank" rel="noopener noreferrer" >
                                 <FaLinkedin></FaLinkedin>
                             </a>
 

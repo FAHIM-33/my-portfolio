@@ -15,9 +15,10 @@ const Home = () => {
         <div className="">
             <Banner></Banner>
             <div>
-                <a href="/cv.txt" className="w-fit flex gap-2 items-center text-2xl bg-gray-200 duration-200 hover:bg-white hover:scale-105 text-prim mx-auto mt-12 p-4 rounded-md" download >
+                <a href="https://drive.google.com/uc?export=download&id=1sFIV6II4jXQmoeexFTxq-wqDcwymfZjm" 
+                className="w-fit flex gap-2 items-center text-lg md:text-2xl bg-gray-200 duration-200 hover:bg-white hover:scale-105 text-prim mx-auto mt-12 p-2 md:p-4 rounded-md" download='SH Fahim resume.pdf' >
                     <FaDownload></FaDownload>
-                    Download CV
+                    Download Resume
                 </a>
             </div>
             <Porjects></Porjects>

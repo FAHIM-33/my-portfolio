@@ -13,14 +13,14 @@ const Porjects = () => {
     }, [])
 
     return (
-        <section className="cont " > 
+        <section className="cont " >
             <SecHead text='My Projects'></SecHead>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4" id="projects" data-aos='slide-left'>
                 {
                     projects?.map(obj => <div key={obj.id}
                         className=" event-card overflow-hidden relative rounded-sm "
                     >
-                        <a href={obj.liveLink}>
+                        <a href={obj.liveLink} title={obj.name} target="_blank" rel="noopener noreferrer">
                             <figure>
                                 <img src={obj.img} alt="borken image" />
                             </figure>
