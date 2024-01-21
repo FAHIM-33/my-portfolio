@@ -25,7 +25,7 @@ const Contact = () => {
                                 className="border-2 border-mid w-fit px-4 py-2 rounded-md duration-200 hover:bg-low hover:drop-shadow-xl shadow-black"
                                 type="submit">Send</button>
                         </form>
-                        <p className="flex items-center gap-4 font-medium text-2xl"> Social media: <span className="flex gap-4 text-4xl">
+                        <p className="flex items-center gap-4 font-medium text-lg md:text-2xl"> Social media: <span className="flex text-2xl gap-4 text-4xl">
                             <a href="https://www.facebook.com/shahriyerhossain.fahim/" title="Go to Facebook profile" target="_blank" rel="noopener noreferrer" >
                                 <FaFacebook></FaFacebook>
                             </a>
