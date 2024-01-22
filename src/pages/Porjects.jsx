@@ -18,16 +18,16 @@ const Porjects = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4" id="projects" data-aos='slide-up'>
                 {
                     projects?.map(obj => <div key={obj.id}
-                        className=" event-card overflow-hidden relative rounded-sm "
+                        className="m-4 event-card overflow-hidden relative rounded-sm "
                     >
                         <a href={obj.liveLink} title={obj.name} target="_blank" rel="noopener noreferrer">
                             <figure>
                                 <img src={obj.img} alt="borken image" />
                             </figure>
                         </a>
-                        <div className="text-mid bg-white pl-4">
+                        <div className="text-high bg-mid pl-4">
                             <h3 className="text-xl pt-2 md:pt-0 md:opacity-0 duration-200 font-semibold">{obj.name}</h3>
-                            <p className="py-1 text-base">{obj.details}</p>
+                            <p className="py-1 text-base">- {obj.details}</p>
                         </div>
 
                     </div>
