@@ -1,31 +1,30 @@
 [
-    {
-      "id": 1,
-      "name": "BDC",
-      "details": "A Blood donation campaing for everyone",
-      "liveLink": "https://assignment-12-dd761.web.app/",
-      "img": "/bdc.png"
-    },
-    {
-      "id": 2,
-      "name": "Brandify",
-      "details": "A brand shop",
-      "liveLink": "https://assignment-10-2babd.web.app/",
-      "img": "/brandify.png"
-    },
-    {
-      "id": 3,
-      "name": "Ocean Books",
-      "details": "A library management website",
-      "liveLink": "https://assignment-11-f750c.web.app/",
-      "img": "/library.png"
-    },
-    {
-      "id": 4,
-      "name": "Tech Mania",
-      "details": "Technology event management website",
-      "liveLink": "https://assignment-9-d0da1.web.app/",
-      "img": "/techmania.png"
-    }
-  ]
-  
+  {
+    "id": 3,
+    "name": "Ocean Books",
+    "details": "A library management website",
+    "liveLink": "https://oceanbooksv2.netlify.app/",
+    "img": "/library.png"
+  },
+  {
+    "id": 4,
+    "name": "Tech Mania",
+    "details": "Technology event management website",
+    "liveLink": "https://assignment-9-d0da1.web.app/",
+    "img": "/techmania.png"
+  },
+  {
+    "id": 1,
+    "name": "BDC",
+    "details": "A Blood donation campaing for everyone",
+    "liveLink": "https://assignment-12-dd761.web.app/",
+    "img": "/bdc.png"
+  },
+  {
+    "id": 2,
+    "name": "Brandify",
+    "details": "A brand shop",
+    "liveLink": "https://assignment-10-2babd.web.app/",
+    "img": "/brandify.png"
+  }
+]
