@@ -41,7 +41,7 @@ const Navbar = () => {
             <div className="border-t border-dashed border-white/40 grow"></div>
             <nav className="hidden w-full md:flex  justify-between m-2 items-center p-1 my-1 max-w-[1440px] mx-auto">
                 <div
-                    className="stripe-bg py-1 flex items-center shrink-0 gap-3 px-4 hover:bg-white/4 border border-white/40 border-dashed rounded-xl backdrop-blur-sm text-2xl font-bold">
+                    className="stripe-bg py-1 gap-3 px-6 hover:bg-white/4 border border-white/40 border-dashed rounded-lg backdrop-blur-sm text-2xl font-bold">
                     SH Fahim
                 </div>
                 <div className="border-t border-dashed border-white/40 grow"></div>
