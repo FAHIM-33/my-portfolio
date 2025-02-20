@@ -14,7 +14,7 @@ const Banner = () => {
 
                 <div className='w-1/2 flex'>
                     <img src="/react.png" className='slow-spin w-1/2' />
-                    <img src="/next.png" className='next-js rounded-full border w-1/2' />
+                    <img src="/next.png" className='next-js rounded-full relative border w-1/2' />
                 </div>
             </div>
 

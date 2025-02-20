@@ -21,14 +21,6 @@ const Skills = () => {
         return `${r}, ${g}, ${b}`;
     };
 
-    useEffect(() => {
-        const cardsArray = document.getElementsByClassName('skill-card')
-        const cards = Array.from(cardsArray)
-        cards?.map(elem => {
-            console.log(elem)
-            elem.addEventListener('')
-        })
-    }, [])
 
     return (
         <section data-aos='slide-up' className="cont" id="skills">
@@ -38,7 +30,8 @@ const Skills = () => {
                     skills?.map(obj => <figure
                         key={obj.id}
                         className={` skill-card p-4 stripe-bg hover:scale-110 duration-200 border border-gray-800`}
-                        style={{ border: `2px solid rgba(${hexToRgb(obj.color)}, 0.5)`,color:obj.color }}
+                        // style={{ border: `2px solid rgba(${hexToRgb(obj.color)}, 0.5)`,color:obj.color }}
+                        style={{ border: `2px solid rgba(${hexToRgb(obj.color)}, 0.3)`,color:obj.color, background: `rgba(${hexToRgb(obj.color)}, 0.08)`}}
                         title={obj.name}
                     >
                         <img className="w-12 h-12 md:w-24 md:h-24 mx-auto block object-contain" src={obj.logo} alt="logo" />
