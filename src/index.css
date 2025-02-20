@@ -32,6 +32,56 @@ html {
   );
 }
 
+.banner-slide {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 300px;
+  transform: skew(18deg);
+  mix-blend-mode: darken;
+  /* transition: all 1.8s; */
+  animation: slideleft 2s forwards;
+}
+
+.next-js {
+  animation: gradientAnimation 5s ease infinite; /* Animation for the gradient */
+  background: linear-gradient(45deg, #ff6a6a, #ffcc6a, #6aff6a, #6aafff);
+  background-size: 400% 400%; /* Size of the gradient */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%; /* Start position */
+  }
+  50% {
+    background-position: 100% 50%; /* Middle position */
+  }
+  100% {
+    background-position: 0% 50%; /* End position */
+  }
+}
+
+@keyframes slideleft {
+  from {
+    left: -10%;
+  }
+  to {
+    left: -5%;
+  }
+}
+
+.slow-spin {
+  animation: spin 20s infinite linear;
+}
+@keyframes spin {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
 body {
   font-family: "Bai Jamjuree", sans-serif;
   background-color: var(--primary);
@@ -93,6 +143,7 @@ nav,
 
 .skill-card {
   border-radius: 8px;
+
   --tw-drop-shadow: drop-shadow(0 25px 25px rgba(56, 56, 56, 0.15));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
     var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
@@ -100,7 +151,7 @@ nav,
 }
 
 .skill-card:hover {
-  --tw-drop-shadow: drop-shadow(0 25px 25px rgba(255, 255, 255, 0.15));
+  --tw-drop-shadow: drop-shadow(0 25px 25px #ffffff26);
 }
 
 .type::after {

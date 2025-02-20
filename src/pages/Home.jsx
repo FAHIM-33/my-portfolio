@@ -35,7 +35,7 @@ const Home = () => {
                     onClick={handleLoading}
                     // href="https://drive.google.com/uc?export=download&id=1rneq91EUEkFclHsDJ9eLXEmjs0ujDkju"
                     href="/SH-Fahim-CV.pdf" download='Shahriyer_Hossain_Fahim_CV.pdf'
-                    className="w-fit flex gap-2 items-center text-lg md:text-2xl bg-gray-200 duration-200  hover:bg-white hover:scale-105 text-prim mx-auto mt-12 p-2 md:p-4 rounded-md"
+                    className="w-fit flex gap-2 items-center text-lg md:text-2xl bg-[#2e0f10] border-2 border-[#fb2c36] duration-200  hover:scale-105 text-white mx-auto mt-12 p-2 md:px-4 rounded-md"
                 >
                     <FaDownload />
                     Download CV

@@ -2,21 +2,27 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
     return (
-        <div className='relative mt-16'>
+        <div className='relative mt-16 cont'>
 
-            <img src="/bannerTop.png" alt="" className='mx-auto w-full mb-2 md:mb-6 md:w-4/5 max-w-screen-lg ' />
-            <h2 className="text-2xl md:text-5xl text-low text-center font-semibold w-full">
-                <TypeAnimation
-                    sequence={[
-                        'Make websites that are polished & reliable to use',
-                    ]}
-                    wrapper="span"
-                    cursor={false}
-                    className='type'
-                />
-            </h2>
-            <img src="/bannerTop.png" alt="" className='mx-auto w-full mt-2 md:mt-6 md:w-4/5 max-w-screen-lg rotate-180' />
+            <div className='flex items-center justify-between'>
+                <h1 className='text-[100px] font-sans font-bold leading-[80px]'>Web<span className='text-red-500 animate-ping'>.</span> <br /> developer</h1>
+                <div className='banner-slide w-1/3 flex absolute'>
+                    <div className=" bg-[#fb2c36] h-full w-full"></div>
+                    {/* <div className=" bg-[#7c2bff] h-full w-1/2"></div> */}
+                    {/* <div className="bg-[#7c2bff] h-full w-1/2"></div> */}
+                </div>
 
+                <div className='w-1/2 flex'>
+                    <img src="/react.png" className='slow-spin w-1/2' />
+                    <img src="/next.png" className='next-js rounded-full border w-1/2' />
+                </div>
+            </div>
+
+            <p className='text-center mt-32 font-sans text-sm text-gray-400'>Make fully custom website with
+                <span className='bg-[#1e0f2f] border rounded px-1 mx-1 text-white border-[#7c2bff]'>Next JS</span>
+                or
+                <span className='bg-[#0f1b2f] border rounded px-1 mx-1 text-white border-[#2b7fff]'>React JS</span>
+            </p>
 
         </div>
     );

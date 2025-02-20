@@ -2,41 +2,49 @@
     {
         "id": 3,
         "name": "React",
-        "logo": "/react.png"
+        "logo": "/react.png",
+        "color":"#00cbfe"
     },
     {
         "id": 1,
         "name": "MongoDB",
-        "logo": "/mongo.png"
+        "logo": "/mongo.png",
+        "color":"#4ea940"
     },
     {
         "id": 2,
         "name": "JavaScript",
-        "logo": "/js.png"
+        "logo": "/js.png",
+        "color":"#7eb901"
     },
     {
         "id": 4,
         "name": "Express",
-        "logo": "/express.png"
+        "logo": "/express.png",
+        "color":"#fefefe"
     },
     {
         "id": 5,
         "name": "JWT",
-        "logo": "/jwt.png"
+        "logo": "/jwt.png",
+        "color":"#fefefe"
     },
     {
         "id": 6,
         "name": "HTML",
-        "logo": "/html.png"
+        "logo": "/html.png",
+        "color":"#f16529"
     },
     {
         "id": 7,
         "name": "CSS",
-        "logo": "/css.png"
+        "logo": "/css.png",
+        "color":"#2964f0"
     },
     {
         "id": 8,
         "name": "Tailwind",
-        "logo": "/tail.png"
+        "logo": "/tail.png",
+        "color":"#06b6d4"
     }
 ]
