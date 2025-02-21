@@ -65,7 +65,7 @@ html {
 
 .project-card:hover > div {
   height: 100px;
-  backdrop-filter: blur(4px);
+  /* backdrop-filter: blur(4px); */
 }
 
 
@@ -214,19 +214,22 @@ nav,
 input,
 textarea {
   padding: 1rem;
+  outline: none;
   border-radius: 5px;
   background-color: transparent;
-  backdrop-filter: blur(4px);
+  /* backdrop-filter: blur(4px);
   --tw-drop-shadow: drop-shadow(0 10px 10px rgba(70, 70, 70, 0.993));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
     var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
-    var(--tw-sepia) var(--tw-drop-shadow);
+    var(--tw-sepia) var(--tw-drop-shadow); */
   border: 1px solid var(--low);
 }
 
-input:hover,
-textarea:hover {
-  background-color: #64646457;
+input:focus,
+textarea:focus {
+  background-color: #37636957;
+  border: 1px solid #2c9ab6a8;
+  outline: none;
 }
 
 .brr {
