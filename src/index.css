@@ -23,11 +23,13 @@ html {
   --bsize: 6px;
   --lite: #47474715;
   --dark: #0000001a;
-  background: repeating-linear-gradient(135deg,
-      var(--lite),
-      var(--lite) var(--size),
-      var(--dark) var(--size),
-      var(--dark) var(--bsize));
+  background: repeating-linear-gradient(
+    135deg,
+    var(--lite),
+    var(--lite) var(--size),
+    var(--dark) var(--size),
+    var(--dark) var(--bsize)
+  );
 }
 
 .banner-slide {
@@ -43,9 +45,29 @@ html {
 
 .next-js {
   animation: gradientAnimation 5s ease infinite;
-  background-image: linear-gradient(45deg, #ff6a6a, #ffcc6a, #6aff6a, #6aafff, #7c2bff, #7c2bff);
+  background-image: linear-gradient(
+    45deg,
+    #ff6a6a,
+    #ffcc6a,
+    #6aff6a,
+    #6aafff,
+    #7c2bff,
+    #7c2bff
+  );
   background-size: 400% 400%;
 }
+
+.project-card > div {
+  /* height: 10%; */
+  height: 80px;
+  transition: all 0.2s;
+}
+
+.project-card:hover > div {
+  height: 100px;
+  backdrop-filter: blur(4px);
+}
+
 
 @keyframes gradientAnimation {
   0% {
@@ -123,14 +145,6 @@ nav a:hover {
   background-color: #ffffff2a;
 }
 
-/* nav .active {
-  color: white;
-  -webkit-background-clip: text;
-  background-clip:text;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(#e66465, #9198e5);
-} */
-
 nav,
 .nav {
   transition: all 0.3s;
@@ -151,7 +165,9 @@ nav,
   border-radius: 8px;
 
   --tw-drop-shadow: drop-shadow(0 25px 25px rgba(56, 56, 56, 0.15));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .skill-card:hover {
@@ -202,7 +218,9 @@ textarea {
   background-color: transparent;
   backdrop-filter: blur(4px);
   --tw-drop-shadow: drop-shadow(0 10px 10px rgba(70, 70, 70, 0.993));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
   border: 1px solid var(--low);
 }
 

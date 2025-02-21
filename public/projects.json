@@ -2,9 +2,16 @@
   {
     "id": 3,
     "name": "Ocean Books",
-    "details": "A library management website",
+    "details": "A library management website. It has a unique & very beautiful look to it. ",
     "liveLink": "https://oceanbooksv2.netlify.app/",
     "img": "/library.png"
+  },
+  {
+    "id": 2,
+    "name": "Mirtello",
+    "details": "A Salon service manager",
+    "liveLink": "https://mirtello.com/",
+    "img": "/mirtello.png"
   },
   {
     "id": 4,
@@ -19,12 +26,5 @@
     "details": "A Blood donation campaing for everyone",
     "liveLink": "https://assignment-12-dd761.web.app/",
     "img": "/bdc.png"
-  },
-  {
-    "id": 2,
-    "name": "Brandify",
-    "details": "A brand shop",
-    "liveLink": "https://assignment-10-2babd.web.app/",
-    "img": "/brandify.png"
   }
 ]
