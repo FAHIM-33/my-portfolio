@@ -5,7 +5,7 @@ const About = () => {
     return (
         <section className="cont" id="about">
             <SecHead text='About me'></SecHead>
-            <p className="md:w-4/5 px-2 md:px-0 text-low text-center mx-auto  md:my-16" data-aos='slide-right'>
+            <p className="md:w-4/5 px-2 md:px-0 text-low text-center mx-auto  md:my-16" data-aos='slide-up'>
                 I, am a developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Delivering work within time which meets clients requirements is my priority.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-center p-4"> 

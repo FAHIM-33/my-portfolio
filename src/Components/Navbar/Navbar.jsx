@@ -33,7 +33,7 @@ const Navbar = () => {
                 <div className="border-t border-dashed border-white/40 grow"></div>
             </div>
             {/* mobile navbar */}
-            <div className=" md:hidden w-full flex items-center">
+            <div className=" md:hidden flex items-center">
                 <div className="border-t border-dashed border-white/40 grow"></div>
                 <nav className="w-[95%] flex  justify-between m-2 items-center p-1 my-1 max-w-[1440px] mx-auto">
                     <div
@@ -42,8 +42,8 @@ const Navbar = () => {
                     </div>
                     <div className="border-t border-dashed border-white/40 grow"></div>
                     <div className="flex stripe-bg md:gap-2 gap-1 border-dashed border rounded-md border-white/40 backdrop-blur-sm">
-                        
-                        <NavDropdown navLinks={navLinks}/>
+
+                        <NavDropdown navLinks={navLinks} />
                     </div>
                 </nav>
                 <div className="border-t border-dashed border-white/40 grow"></div>

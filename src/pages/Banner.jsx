@@ -3,8 +3,8 @@ const Banner = () => {
     return (
         <div className='relative mt-16 cont'>
 
-            <div className='flex flex-col md:flex-row gap-10 md:gap-0 items-center justify-between'>
-                <h1 className=' text-[80px] md:text-[100px] font-sans font-bold leading-[65px] md:leading-[80px]'>
+            <div className='ml-4 md:ml-0 flex flex-col md:flex-row gap-10 md:gap-0 md:items-center justify-between'>
+                <h1 className='text-[70px] md:text-[100px] font-sans font-bold leading-[65px] md:leading-[80px]'>
                     Web<span className='animate-ping'>.</span>
                     <br />
                     developer
@@ -16,12 +16,12 @@ const Banner = () => {
                 </div>
 
                 <div className='md:w-1/2 w-[90%] flex gap-1'>
-                    <img src="/react.png" className='slow-spin w-1/2' />
+                    <img src="/react.png" className='slow-spin w-1/2 rounded-full overflow-hidden' />
                     <img src="/next.png" className='next-js  rounded-full relative border-2 border-transparent w-1/2' />
                 </div>
             </div>
 
-            <p className='mt-32 font-sans text-sm text-gray-400'>
+            <p className='mt-20 md:mt-32 font-sans text-sm text-gray-400 ml-4 md:ml-0'>
                 I&apos;m
                 <a href="https://github.com/FAHIM-33" title="Go to GitHub profile" target="_blank" rel="noopener noreferrer" className="text-blue-400"> SH Fahim</a>
                 <br />

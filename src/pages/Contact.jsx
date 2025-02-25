@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <section className="cont " id="contact">
+        <section className="cont" id="contact">
             <SecHead text='Contact me'></SecHead>
 
             <section className="text-high mb-8 mt-12 py-4 border border-low md:mx-0 mx-2 rounded-lg">
