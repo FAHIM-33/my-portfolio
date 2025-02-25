@@ -25,7 +25,7 @@ const Skills = () => {
     return (
         <section data-aos='slide-up' className="cont" id="skills">
             <SecHead text='My Skills'></SecHead>
-            <div className="flex  flex-wrap justify-center p-4 md:p-8 gap-4 items-center text-center md:my-16">
+            <div className="flex mt-12 flex-wrap justify-center p-4 md:p-8 gap-4 items-center text-center md:my-16">
                 {
                     skills?.map(obj => <figure
                         key={obj.id}

@@ -30,8 +30,8 @@ export default function NavDropdown({ navLinks }) {
 
             <div
 
-                className={` absolute border-dashed border transition-all right-0 duration-200 py-2 top-10 flex flex-col bg-[#0000009f] gap-1 overflow-hidden  rounded-md border-white/40  
-                ${open ? "h-40 " : "h-0 pointer-events-none border-0 py-0"}`}>
+                className={` absolute  transition-all right-0 duration-200  top-10 flex flex-col bg-[#0000009f] gap-1 overflow-hidden  rounded-md border-white/40  
+                ${open ? "h-40 py-2 border-dashed border" : "h-0 pointer-events-none overflow-hidden border-0"}`}>
                 {navLinks.map((item) =>
                     <a className="capitalize px-4 md:px-3" href={item.link} key={item.title}>{item.title}</a>
                 )}
