@@ -4,7 +4,7 @@ import { BsClipboard2, BsClipboard2Check } from "react-icons/bs";
 
 // eslint-disable-next-line react/prop-types
 const Details = ({ title, children }) => {
-    const [success, setSuccess] = useState(true)
+    const [success, setSuccess] = useState(false)
 
     function saveToClip() {
         navigator.clipboard.writeText('shahriyerfahim2012@gmail.com')
