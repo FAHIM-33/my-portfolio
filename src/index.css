@@ -38,7 +38,16 @@ html {
   transform: skew(18deg);
   mix-blend-mode: darken;
   /* transition: all 1.8s; */
-  animation: slideleft 2s forwards;
+  animation: slideleft 2.5s forwards;
+}
+@keyframes slideleft {
+  from {
+    left: -20%;
+  }
+
+  to {
+    left: -5%;
+  }
 }
 
 .next-js {
@@ -80,15 +89,7 @@ html {
   }
 }
 
-@keyframes slideleft {
-  from {
-    left: -10%;
-  }
 
-  to {
-    left: -5%;
-  }
-}
 
 .slow-spin {
   animation: spin 20s infinite linear;
@@ -115,17 +116,6 @@ body {
   cursor: url("/curs2.png"), auto;
 }
 
-body::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  /* background-image: url('/bgPng.png');
-    background-attachment: fixed;
-    background-repeat: repeat;
-    background-size: 200px;
-    opacity: 0.08; */
-}
 
 nav a {
   border: 1px solid transparent;
@@ -230,6 +220,16 @@ textarea:focus {
 }
 
 @media screen and (max-width: 768px) {
+  @keyframes slideleft {
+    from {
+      left: -30%;
+    }
+  
+    to {
+      left: -13%;
+    }
+  }
+ 
   nav a {
     padding: 0;
   }
