@@ -1,5 +1,12 @@
 
 const Banner = () => {
+
+    window.addEventListener('load', () => {
+        const elem = document.getElementById('banner-slide')
+        // elem.classList.remove('banner-slide')
+        elem.classList.add('banner-slide')
+    })
+
     return (
         <div className='relative mt-16 cont'>
 
@@ -9,7 +16,7 @@ const Banner = () => {
                     <br />
                     developer
                 </h1>
-                <div className='banner-slide w-1/3 flex absolute'>
+                <div id="banner-slide" className='banner-slide w-1/3 flex absolute'>
                     <div className=" bg-[#fb2d37] h-full w-full next-js"></div>
                     {/* <div className=" bg-[#7c2bff] h-full w-1/2"></div> */}
                     {/* <div className="bg-[#7c2bff] h-full w-1/2"></div> */}

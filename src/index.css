@@ -38,11 +38,11 @@ html {
   transform: skew(18deg);
   mix-blend-mode: darken;
   /* transition: all 1.8s; */
-  animation: slideleft 2.5s forwards;
+  animation: slideleft 3s forwards;
 }
 @keyframes slideleft {
   from {
-    left: -20%;
+    left: -15%;
   }
 
   to {
